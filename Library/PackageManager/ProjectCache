@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638796600954228050
-    m_Hash: 2701905325
+      ticks: 638797260541029870
+    m_Hash: 2886191773
   m_LockFileStatus:
     m_FilePath: C:/Users/Alexander/Documents/AzurGames/AzurGamesTest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638796600954275683
-    m_Hash: 2599729729
+      ticks: 638797260541069867
+    m_Hash: 3013411578
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,131 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Alexander/Documents/AzurGames/AzurGamesTest/Packages
 m_EditorVersion: 2021.3.27f1 (ca3ffb99bcc6)
 m_ResolvedPackages:
+- packageId: com.coffee.ui-effect@https://github.com/mob-sakai/UIEffect.git?path=Packages/src
+  testable: 0
+  isDirectDependency: 1
+  version: 5.6.3
+  source: 5
+  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.coffee.ui-effect@dbdb99b52a
+  assetPath: Packages/com.coffee.ui-effect
+  name: com.coffee.ui-effect
+  displayName: UI Effect
+  author:
+    name: mob-sakai
+    email: sakai861104@gmail.com
+    url: https://github.com/mob-sakai
+  category: 
+  type: 
+  description: 'UIEffect is an open-source package that allows you to intuitively
+    apply rich UI effects directly from the Inspector or via code.
+
+    Combine various
+    filters, such as grayscale, blur, and dissolve, to decorate your UI with a unique
+    visual style!'
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - ui
+  - effect
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/mob-sakai/UIEffect.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.coffee.ui-particle@https://github.com/mob-sakai/ParticleEffectForUGUI.git
+  testable: 0
+  isDirectDependency: 1
+  version: 4.11.2
+  source: 5
+  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.coffee.ui-particle@4b98abd746
+  assetPath: Packages/com.coffee.ui-particle
+  name: com.coffee.ui-particle
+  displayName: UI Particle
+  author:
+    name: mob-sakai
+    email: sakai861104@gmail.com
+    url: https://github.com/mob-sakai
+  category: 
+  type: 
+  description: 'This package provides a component to render particle effects for
+    uGUI.
+
+    The particle rendering is maskable and sortable, without the need
+    for an extra Camera, RenderTexture, or Canvas.'
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords:
+  - ui
+  - particle
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/mob-sakai/ParticleEffectForUGUI.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@2.0.4
   testable: 0
   isDirectDependency: 1
@@ -1573,6 +1698,404 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.8.0
+    nextVersion: 
+- packageId: com.unity.xr.arcore@4.2.10
+  testable: 0
+  isDirectDependency: 1
+  version: 4.2.10
+  source: 1
+  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.xr.arcore@4.2.10
+  assetPath: Packages/com.unity.xr.arcore
+  name: com.unity.xr.arcore
+  displayName: ARCore XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
+    XR API.
+
+    Supports the following features:
+
+    -Efficient Background Rendering
+
+    -Horizontal
+    Planes
+
+    -Depth Data
+
+    -Anchors
+
+    -Hit Testing
+
+    -Occlusion'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.24
+    - 2.0.2
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.4
+    - 2.1.8
+    - 2.1.11
+    - 2.1.12
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.7
+    - 3.1.8
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.3
+    - 4.0.4
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.1.6
+    - 5.2.0
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.1.0-pre.1
+    - 6.1.0-pre.2
+    - 6.1.0-pre.3
+    - 6.1.0-pre.4
+    - 6.1.0-pre.5
+    - 6.1.0
+    compatible:
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.1.6
+    - 5.2.0
+    verified: 4.2.10
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.10
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.5.1
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - arcore
+  - ar
+  - augmented
+  - xr
+  - reality
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638416033650000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: e9e2efe902fc394d3819244ecff203834e95dcc9
+    path: 
+  unityLifecycle:
+    version: 4.2.8
+    nextVersion: 
+- packageId: com.unity.xr.management@4.5.1
+  testable: 0
+  isDirectDependency: 1
+  version: 4.5.1
+  source: 1
+  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.xr.management@4.5.1
+  assetPath: Packages/com.unity.xr.management
+  name: com.unity.xr.management
+  displayName: XR Plugin Management
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Package that provides simple management of XR plug-ins. Manages and
+    offers help with loading, initialization, settings, and build support for XR
+    plug-ins.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.8
+    - 0.1.0-preview.12
+    - 1.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.6
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.13
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    - 2.0.0-preview.26
+    - 3.0.1
+    - 3.0.2-preview.1
+    - 3.0.2-preview.2
+    - 3.0.3
+    - 3.0.4-preview.1
+    - 3.0.4-preview.3
+    - 3.0.4
+    - 3.0.5-preview.1
+    - 3.0.5
+    - 3.0.6-preview.2
+    - 3.0.6
+    - 3.1.0-preview.2
+    - 3.2.4
+    - 3.2.6
+    - 3.2.7
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11-preview.1
+    - 3.2.12
+    - 3.2.13
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 4.0.0-exp.2
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.1
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
+    - 4.0.7
+    - 4.1.0-pre.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 4.3.1
+    - 4.3.3
+    - 4.4.0
+    - 4.4.1
+    - 4.5.0
+    - 4.5.1
+    compatible:
+    - 4.3.3
+    - 4.4.0
+    - 4.4.1
+    - 4.5.0
+    - 4.5.1
+    verified: 4.3.3
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  keywords:
+  - xr
+  - sdk
+  - ar
+  - vr
+  - management
+  - build
+  - plugin
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638785987307450000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+    revision: 0fe78d9177c9f96352ea5d06283c26e42f9ed490
+    path: 
+  unityLifecycle:
+    version: 4.3.3
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3347,6 +3870,380 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+- packageId: com.unity.xr.core-utils@2.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.2.1
+  source: 1
+  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.xr.core-utils@2.2.1
+  assetPath: Packages/com.unity.xr.core-utils
+  name: com.unity.xr.core-utils
+  displayName: XR Core Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "Common utility classes for XR projects\nRefer to API documentation
+    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
+    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
+    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
+    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
+    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
+    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
+    XR Origin Implementation"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
+    compatible:
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
+    verified: 2.2.3
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638187829490000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
+    revision: 0ec01755305a46c64c285b7ff29bc99eabf34a87
+    path: 
+  unityLifecycle:
+    version: 2.2.1
+    nextVersion: 
+- packageId: com.unity.xr.legacyinputhelpers@2.1.11
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.11
+  source: 1
+  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.11
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: 
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    - 2.1.11
+    - 2.1.12
+    compatible:
+    - 2.1.10
+    - 2.1.11
+    - 2.1.12
+    verified: 2.1.12
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638627703211970000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 43a3dc5e306cc961f9f0121a31ec3bd1285cf1a7
+    path: 
+  unityLifecycle:
+    version: 2.1.10
+    nextVersion: 
+- packageId: com.unity.xr.arsubsystems@4.2.10
+  testable: 0
+  isDirectDependency: 0
+  version: 4.2.10
+  source: 1
+  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.xr.arsubsystems@4.2.10
+  assetPath: Packages/com.unity.xr.arsubsystems
+  name: com.unity.xr.arsubsystems
+  displayName: AR Subsystems
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Contains definitions for AR Subsystems. This package is a dependency
+    of provider packages, as well as AR Foundation.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.2
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0
+    - 3.0.2
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.1
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    compatible:
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    verified: 4.2.10
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.5.1
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  keywords:
+  - subsystem
+  - XR
+  - AR
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638416033630000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: e9e2efe902fc394d3819244ecff203834e95dcc9
+    path: 
+  unityLifecycle:
+    version: 4.2.8
+    nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
@@ -3594,7 +4491,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
@@ -3617,10 +4514,12 @@ m_ResolvedPackages:
     - 4.7.0-preview
     - 4.9.1
     - 4.9.2
+    - 4.9.3
     compatible:
     - 4.9.1
     - 4.9.2
-    verified: 4.9.2
+    - 4.9.3
+    verified: 4.9.3
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3634,7 +4533,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637695653650000000
   documentationUrl: 
@@ -5132,63 +6031,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.2.5
     nextVersion: 
-- packageId: com.unity.profiling.core@1.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.2
-  source: 1
-  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.profiling.core@1.0.2
-  assetPath: Packages/com.unity.profiling.core
-  name: com.unity.profiling.core
-  displayName: Unity Profiling Core API
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: The Unity Profiling Core package provides an API for code instrumentation
-    markup, and for profiling statistic collection.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.1
-    - 0.2.0-preview.1
-    - 0.2.1-preview.1
-    - 1.0.0-pre.1
-    - 1.0.0
-    - 1.0.2
-    compatible:
-    - 1.0.2
-    verified: 1.0.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - profiler
-  - profiling
-  - api
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637828752310000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/profiler.git
-    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
-    path: 
-  unityLifecycle:
-    version: 1.0.2
-    nextVersion: 
 - packageId: com.unity.subsystemregistration@1.1.0
   testable: 0
   isDirectDependency: 0
@@ -5254,6 +6096,63 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.1.0
+    nextVersion: 
+- packageId: com.unity.profiling.core@1.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.2
+  source: 1
+  resolvedPath: C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.profiling.core@1.0.2
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
+    compatible:
+    - 1.0.2
+    verified: 1.0.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - profiler
+  - profiling
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637828752310000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
+    path: 
+  unityLifecycle:
+    version: 1.0.2
     nextVersion: 
 - packageId: com.unity.2d.path@5.0.2
   testable: 0

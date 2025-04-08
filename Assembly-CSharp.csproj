@@ -41,15 +41,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\MarksScript.cs" />
      <Compile Include="Assets\Scripts\ObjectsClickScript.cs" />
+     <Compile Include="Assets\Scripts\MarksScript.cs" />
+     <Compile Include="Assets\Scripts\FinishScript.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Scripts\TimerScript.cs" />
+     <Compile Include="Assets\Scripts\QuitScript.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\XR" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\Animation\FinishAnimation" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Content\Art" />
@@ -58,9 +63,13 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\XR\Settings" />
+     <Folder Include="Assets\ProjectSettings" />
+     <Folder Include="Assets\Content\Prefabs\objects" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\TutorialInfo" />
+     <Folder Include="Assets\Render" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -69,7 +78,9 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <Folder Include="Assets\Content\Art\Level" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\Animation\ButtonAnimation" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\Materials" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\TutorialInfo\Scripts" />
@@ -77,13 +88,18 @@
      <Folder Include="Assets\TutorialInfo\Icons" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Content\Prefabs" />
+     <Folder Include="Assets\Adaptive Performance" />
      <Folder Include="Assets\Animation" />
      <Folder Include="Assets\Content" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\XR\Loaders" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\Content\Prefabs\particles" />
+     <Folder Include="Assets\Adaptive Performance\Settings" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\Shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\Animation\MarkAnimation" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
@@ -326,8 +342,14 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
+     <Reference Include="Coffee.UIParticle.R">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.coffee.ui-particle@4b98abd746\Runtime\Coffee.UIParticle.R.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Coffee.UIEffect.R">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.coffee.ui-effect@dbdb99b52a\Runtime\Coffee.UIEffect.R.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -737,11 +759,14 @@
      <Reference Include="Unity.2D.IK.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.2D.Path.Editor">
-     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.ARCore.Editor">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Path.Editor">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -755,8 +780,14 @@
      <Reference Include="UnityEngine.UI">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEngine.SpatialTracking">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Notifications.iOS">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.Notifications.iOS.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.CoreUtils.Editor">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.IK.Runtime">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
@@ -770,17 +801,32 @@
      <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.XR.ARSubsystems.Editor">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Management">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Mathematics.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.AdaptivePerformance">
-     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
+     <Reference Include="Unity.XR.ARCore">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.XR.ARCore.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.ARSubsystems">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
+     </Reference>
+     <Reference Include="Coffee.UIParticle">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Coffee.UIParticle.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Notifications.Android">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Common.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AdaptivePerformance">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
@@ -805,6 +851,9 @@
      </Reference>
      <Reference Include="Unity.Profiling.Core">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Management.Editor">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -863,6 +912,9 @@
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
@@ -878,14 +930,23 @@
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.XR.CoreUtils">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Common.Runtime">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.SpriteShape.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SpatialTracking">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AdaptivePerformance.Profiler.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
@@ -898,6 +959,9 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Coffee.UIEffect">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Coffee.UIEffect.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

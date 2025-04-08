@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Coffee.UIExtensions;
 using UnityEngine;
 using TMPro.EditorUtilities;
 using Unity.VisualScripting;
@@ -7,16 +8,19 @@ using UnityEngine.UI;
 
 public class ObjectsClickScript : MonoBehaviour
 {
-    private int points;
+    public GameObject pointsCounter;
+    public MarksScript marks;
+    public ParticleSystem particleSystem;
+    
+    private int points = 0;
     private const int max = 10;
     private Animator anim;
-    public GameObject pointsCounter;
 
-    public MarksScript marks;
     // Start is called before the first frame update
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
+        particleSystem = gameObject.GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -31,6 +35,7 @@ public class ObjectsClickScript : MonoBehaviour
         this.gameObject.GetComponent<Button>().enabled = false;
         points = int.Parse(pointsCounter.GetComponent<TMPro.TextMeshProUGUI>().text) - 1;
         pointsCounter.GetComponent<TMPro.TextMeshProUGUI>().text = points.ToString();
-        marks.PlusOne(max - points);
+        marks.PlusOne(max - points, this.gameObject);
+
     }
 }
