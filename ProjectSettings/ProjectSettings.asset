@@ -68,7 +68,7 @@ PlayerSettings:
   androidRenderOutsideSafeArea: 1
   androidUseSwappy: 1
   androidBlitType: 2
-  androidResizableWindow: 0
+  androidResizableWindow: 1
   androidDefaultWindowWidth: 1920
   androidDefaultWindowHeight: 1080
   androidMinimumWindowWidth: 400
@@ -138,6 +138,8 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 11400000, guid: 736214161af824f41a88caffa9a93ab1, type: 2}
   - {fileID: 11400000, guid: 6ab8e88a1b25f2a4f9e7e8b1a2449416, type: 2}
+  - {fileID: 8007153178408818719, guid: bf223d71dee9e624883c0b55866ada96, type: 2}
+  - {fileID: 11400000, guid: cb3c761fc12f59844b58df357acc0d4c, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1

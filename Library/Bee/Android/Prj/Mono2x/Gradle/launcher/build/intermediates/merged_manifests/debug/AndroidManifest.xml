@@ -46,7 +46,7 @@
             android:exported="true"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:resizeableActivity="false"
+            android:resizeableActivity="true"
             android:screenOrientation="portrait"
             android:theme="@style/UnityThemeSelector" >
             <intent-filter>
@@ -58,6 +58,12 @@
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
+            <meta-data
+                android:name="WindowManagerPreference:FreeformWindowSize"
+                android:value="@string/FreeformWindowSize_maximize" />
+            <meta-data
+                android:name="WindowManagerPreference:FreeformWindowOrientation"
+                android:value="@string/FreeformWindowOrientation_portrait" />
             <meta-data
                 android:name="android.notch_support"
                 android:value="true" />
@@ -74,7 +80,7 @@
             android:value="True" />
         <meta-data
             android:name="unity.allow-resizable-window"
-            android:value="False" />
+            android:value="True" />
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />

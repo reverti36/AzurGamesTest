@@ -336,6 +336,7 @@
 "Assets/Scripts/FinishScript.cs"
 "Assets/Scripts/MarksScript.cs"
 "Assets/Scripts/ObjectsClickScript.cs"
+"Assets/Scripts/PlaySoundOnClickScript.cs"
 "Assets/Scripts/QuitScript.cs"
 "Assets/Scripts/TimerScript.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
