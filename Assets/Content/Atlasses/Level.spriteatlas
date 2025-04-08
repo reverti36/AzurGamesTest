@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Level
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d81e6e584920c694faf5a20aaacfd654, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 38627d704359dcf4b8c9fc4ee1dfa39d, type: 3}
+  - {fileID: 21300000, guid: ab83fbe25f573a94b9775aa864b3d0ab, type: 3}
+  - {fileID: 21300000, guid: e49c3cf29b9ddfd4ca3e79a334143dda, type: 3}
+  - {fileID: 21300000, guid: d7b335e38df549342af22a282cd7c78c, type: 3}
+  - {fileID: 21300000, guid: c2a0f7b5e325bf14aacf9e6d1218cead, type: 3}
+  - {fileID: 21300000, guid: 0eb86ee64e7b0784cb249fed01f2d1e6, type: 3}
+  - {fileID: 21300000, guid: 3c5c8768cf80a0d499796afb3bd8df61, type: 3}
+  - {fileID: 21300000, guid: fbfcbc6b5cfe3d4409754368432bc04d, type: 3}
+  - {fileID: 21300000, guid: 50f5d67fcc0017c4dbf92cb62152c9b1, type: 3}
+  - {fileID: 21300000, guid: eae6f18f6226c2e48b7705e5dd660657, type: 3}
+  - {fileID: 21300000, guid: 460df3ef8993d9f43935fcca7c456173, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - pot_lid
+  - bird_1
+  - eye
+  - skull
+  - steam_green
+  - red_pepper
+  - collar
+  - juice_orange
+  - poison
+  - frame_2
+  - green_bottle
+  m_RenderDataMap: {}
+  m_Tag: Level
+  m_IsVariant: 0

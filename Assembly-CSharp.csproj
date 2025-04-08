@@ -42,17 +42,19 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ObjectsClickScript.cs" />
+     <Compile Include="Assets\Scripts\QuitScript.cs" />
      <Compile Include="Assets\Scripts\MarksScript.cs" />
      <Compile Include="Assets\Scripts\FinishScript.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\TimerScript.cs" />
-     <Compile Include="Assets\Scripts\QuitScript.cs" />
+     <Compile Include="Assets\Scripts\PlaySoundOnClickScript.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\XR" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\Adaptive Performance\Provider" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Animation\FinishAnimation" />
      <Folder Include="Assets\Scripts" />
@@ -69,6 +71,8 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\TutorialInfo" />
+     <Folder Include="Assets\Content\Atlasses" />
+     <Folder Include="Assets\Content\SFX" />
      <Folder Include="Assets\Render" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -345,11 +349,11 @@
      <Reference Include="Coffee.UIParticle.R">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.coffee.ui-particle@4b98abd746\Runtime\Coffee.UIParticle.R.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
      <Reference Include="Coffee.UIEffect.R">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.coffee.ui-effect@dbdb99b52a\Runtime\Coffee.UIEffect.R.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -750,6 +754,9 @@
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.AdaptivePerformance.Samsung.Android.Editor">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
@@ -909,6 +916,9 @@
      <Reference Include="Unity.Burst">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
+     <Reference Include="Coffee.UIEffect">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Coffee.UIEffect.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
@@ -954,14 +964,17 @@
      <Reference Include="Unity.RenderPipelines.Core.Editor">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.AdaptivePerformance.Simulator.VRR.Extension">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.VRR.Extension.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.2D.SpriteShape.Runtime">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
-     <Reference Include="Coffee.UIEffect">
-     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Coffee.UIEffect.dll</HintPath>
+     <Reference Include="Unity.AdaptivePerformance.Samsung.Android">
+     <HintPath>C:\Users\Alexander\Documents\AzurGames\AzurGamesTest\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

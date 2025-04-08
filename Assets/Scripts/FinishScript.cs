@@ -6,6 +6,7 @@ using UnityEngine;
 public class FinishScript : MonoBehaviour
 {
     private Animator anim;
+    private Animator soundAnim;
     public GameObject finishScreen;
 
     public TextMeshProUGUI finishText;
@@ -15,6 +16,7 @@ public class FinishScript : MonoBehaviour
     void Start()
     {
         anim = finishScreen.gameObject.GetComponent<Animator>();
+        soundAnim = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class FinishScript : MonoBehaviour
 
     public void PlayFinish()
     {
+        soundAnim.Play("Sound Lower");
         timerScript.StopTimer();
         finishScreen.SetActive(true);
         anim.SetTrigger("Success");
@@ -33,6 +36,7 @@ public class FinishScript : MonoBehaviour
 
     public void PlayFail()
     {
+        soundAnim.SetTrigger("Sound Lower");
         finishScreen.SetActive(true);
         anim.SetTrigger("Fail");
         finishText.text = "Better luck next time!";
