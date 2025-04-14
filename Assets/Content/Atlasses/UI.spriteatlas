@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f353ec8a414ee9a468f78ff596368beb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9e0fe9a771d4b044a86d95b476b25934, type: 3}
+  - {fileID: 21300000, guid: 3fb33908eb52c7c498fd6dd2ac26f656, type: 3}
+  - {fileID: 21300000, guid: 1bc375a8c46b663488b433933c3020f3, type: 3}
+  - {fileID: 21300000, guid: d68f9899caf6e9643b8a5869dc044da5, type: 3}
+  - {fileID: 21300000, guid: 9055da5b693a3614da870ed6744d3dc9, type: 3}
+  - {fileID: 21300000, guid: aebe1a6bbf0419a40917377c8b2b5f70, type: 3}
+  - {fileID: 21300000, guid: 9bae868b8344c3b4c808282f34aa8524, type: 3}
+  - {fileID: 21300000, guid: 7ef9317e82d48444ca8b02b4166426a3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - glowPick
+  - circle_grayscale
+  - success
+  - glow
+  - circle
+  - star_4x4
+  - fail
+  - button_download
+  m_RenderDataMap: {}
+  m_Tag: UI
+  m_IsVariant: 0
